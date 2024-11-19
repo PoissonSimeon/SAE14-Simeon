@@ -33,6 +33,7 @@
     font-weight: 700;
     font-style: normal;
     color: rgb(128, 128, 128);
+    text-decoration: none;
 }
 
 .header2{
@@ -51,12 +52,13 @@
      width: 400px;
      height: auto;
      padding-left: 50px;
+     margin-left: 120px;
 }
 
 .inscription{
     display: flex;
     justify-content: space-between;
-    width: 290px;
+    width: 305px;
 }
 
 .abonner{
@@ -82,8 +84,13 @@
     padding: 10px;
 }
 
-.journal {
-    
+.propos{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.fa-solid {
+    margin-left: 15px;
 }
 
 .ligne{
