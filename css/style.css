@@ -20,12 +20,11 @@
 .header2{
      display: flex;
      justify-content: space-between;
-     align-items: baseline;
+     align-items: center;
      height: 107px;
      width: 1100px;
      margin: 0 auto;
      font-family: "Questrial", sans-serif;
-     background-color: blue;
 }
 
 .logo img{
@@ -37,7 +36,28 @@
 .inscription{
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 270px;
+}
+
+.abonner{
+    background-color: rgb(255, 196, 0);
+    display: flex;
+    padding: 10px;
+}
+
+.barre{
+    display: flex;
+    padding: 10px;
+}
+
+.connexion{
+    display: flex;
+    padding: 10px;
+}
+
+.icone1{
+    display: flex;
+    padding: 10px;
 }
 
 .journal {
