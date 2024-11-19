@@ -20,7 +20,9 @@
 .francais{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: normal;    
+    font-style: normal;
+    text-decoration: none;    
+    color: black;
 }
 
 .fjbarre{
