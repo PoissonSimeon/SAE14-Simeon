@@ -144,42 +144,35 @@
 
 }
 
-.h4_info1{
+.h4_info{
 
     display: flex;
+    flex-direction: column;
     height: 125px;
-}
-
-.h4_info2{
-
-    display: flex;
-    height: 125px;
-}
-
-.h4_info3{
-
-    display: flex;
-    height: 125px;
-}
-
-.h4_info4{
-
-    display: flex;
-    height: 125px;
-}
-
-.h4_info5{
-
-    display: flex;
-    height: 125px;
-}
-
-.h4_info6{
-
-    display: flex;
-    height: 125px;
+    margin-top: 25px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    width: 170px;
+    border-right: solid 1px black;
+    font-size: 14px;
+    padding-right: 20px;
+    font-family: inherit;
 }
 
 .h4_voirplus{
-    color: rgb(255, 150, 255);
+
+    display: flex;
+    height: 125px;
+    margin-top: 25px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    width: 100px;
+}
+
+.h4_voirplus{
+    color: rgb(255, 255, 255);
+}
+
+.h4_heure{
+    color: rgb(255, 175, 255);
 }
