@@ -97,7 +97,7 @@
 .propos{
     text-decoration: none;
     color: rgb(0, 0, 0);
-        background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     display: flex;
     padding: 10px;
     border-radius: 5px;
@@ -127,13 +127,32 @@
     height: 55px;
     width: 1100px;
     margin: 0 auto;
+    color: black;
 }
 
 .header4{
 
     height: 125px;
     background-color: rgb(180, 0, 180);
+    display: block;
 }
+
+@media (max-width: 1150px) {
+    .header4 {
+      display: none;
+    }
+
+    .header1 {
+        display: none;
+    }
+    .header3{
+        display: none;
+    }
+    .propos {
+        display: none;
+    }
+
+  }
 
 .header4_2{
 
@@ -163,32 +182,37 @@
 }
 
 .h4_info_1{
+    font-family: "Roboto", sans-serif;
     opacity: 0;
-    animation: apparition_bas_en_haut 1.5s ease-out forwards;
+    animation: apparition_bas_en_haut 0.5s ease-out forwards;
 }
 
 .h4_info_2{
+    font-family: "Roboto", sans-serif;
     opacity: 0;
-    animation: apparition_bas_en_haut 1.5s ease-out forwards;
+    animation: apparition_bas_en_haut 0.5s ease-out forwards;
     animation-delay: 0.5s;
 }
 
 
 .h4_info_3{
+    font-family: "Roboto", sans-serif;
     opacity: 0;
-    animation: apparition_bas_en_haut 1.5s ease-out forwards;
+    animation: apparition_bas_en_haut 0.5s ease-out forwards;
     animation-delay: 1s;
 }
 
 .h4_info_4{
+    font-family: "Roboto", sans-serif;
     opacity: 0;
-    animation: apparition_bas_en_haut 1.5s ease-out forwards;
+    animation: apparition_bas_en_haut 0.5s ease-out forwards;
     animation-delay: 1.5s;
 }
 
 .h4_info_5{
+    font-family: "Roboto", sans-serif;
     opacity: 0;
-    animation: apparition_bas_en_haut 1.5s ease-out forwards;
+    animation: apparition_bas_en_haut 0.5s ease-out forwards;
     animation-delay: 2s;
 }
 
@@ -203,6 +227,15 @@
       transform: translateY(0);
     }
   }
+
+  @keyframes fondu {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
 
 .h4_voirplus{
 
@@ -220,5 +253,5 @@
 
 .h4_heure{
     color: rgb(255, 175, 255);
-    animation: apparition_bas_en_haut 2s ease-out forwards;
+    animation: fondu 0.5s;
 }
