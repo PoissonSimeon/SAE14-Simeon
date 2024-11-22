@@ -141,7 +141,6 @@
     .header4 {
       display: none;
     }
-
     .header1 {
         display: none;
     }
@@ -254,4 +253,17 @@
 .h4_heure{
     color: rgb(255, 175, 255);
     animation: fondu 0.5s;
+}
+
+.journal{
+    background-color: rgb(240, 240, 240);
+    height: 2000px;
+    padding-top: 200px;
+}
+
+.page{
+    background-color: rgb(255, 255, 255);
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 1800px;
 }
