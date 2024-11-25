@@ -302,10 +302,10 @@
 
 .article2{
     align-items: center;
-    height: 500px;
+    height: 520px;
     max-width: 230px;
     border-bottom: solid 1px rgb(130, 130, 130);
-    background-color: aqua;
+    padding-top: 10px;
 }
 
 .titre-article2{
@@ -317,11 +317,13 @@
 .texte-article2{
     font-size: 20px;
     color: rgb(40, 40, 40);
+    padding-top: 10px;
 }
 
 .image-article2{
     max-width: 230px;
     height: auto;
+    padding-top: 10px;
 }
 
 
@@ -331,7 +333,6 @@
     max-width: 260px;
     border-bottom: solid 1px rgb(130, 130, 130);
     padding-top: 10px;
-    background-color: aqua;
 }
 
 .titre-article3{
@@ -374,9 +375,8 @@
 
 .article4{
     align-items: center;
-    height: 500px;
+    height: 480px;
     max-width: 230px;
-    background-color: aqua;
     border-bottom: solid 1px rgb(130, 130, 130);
     padding-top: 10px;
 }
@@ -405,14 +405,13 @@
     height: 350px;
     max-width: 260px;
     border-bottom: solid 1px rgb(130, 130, 130);
-    background-color: aqua;
 }
 
 .titre-article5{
     font-size: 20px;
     font-weight: bold;
     color: rgb(40, 40, 40);
-    padding-top: 10px;
+    padding-top: 20px;
     text-align: center;
 }
 
