@@ -328,9 +328,10 @@
 .article3{
     align-items: center;
     height: 650px;
-    max-width: 350px;
+    max-width: 260px;
+    border-bottom: solid 1px rgb(130, 130, 130);
+    padding-top: 10px;
     background-color: aqua;
-    
 }
 
 .titre-article3{
@@ -340,13 +341,16 @@
 }
 
 .texte-article3{
+    padding-top: 10px;
     font-size: 20px;
     color: rgb(40, 40, 40);
 }
 
 .image-article3{
+    padding-top: 10px;
     max-width: 260px;
     height: auto;
+    padding-top: 10px;
 }
 
 
@@ -389,6 +393,7 @@
     font-size: 20px;
     font-weight: bold;
     color: rgb(40, 40, 40);
+    padding-top: 10px;
 }
 
 .texte-article5{
@@ -399,6 +404,6 @@
 
 .image-article5{
     padding-top: 10px;
-    max-width: 230px;
+    max-width: 260px;
     height: auto;
 }
