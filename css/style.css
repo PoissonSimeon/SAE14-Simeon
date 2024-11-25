@@ -277,8 +277,9 @@
 
 
 .article1{
+    font-family: "Rubik", sans-serif;
     align-items: center;
-    height: 1000px;
+    height: 1090px;
     max-width: 450px;
     border-bottom: solid 1px rgb(130, 130, 130);
 }
@@ -301,6 +302,7 @@
 
 
 .article2{
+    font-family: "Rubik", sans-serif;
     align-items: center;
     height: 520px;
     max-width: 230px;
@@ -312,12 +314,14 @@
     font-size: 30px;
     font-weight: bold;
     color: rgb(40, 40, 40);
+    text-align: center;
 }
 
 .texte-article2{
     font-size: 20px;
     color: rgb(40, 40, 40);
     padding-top: 10px;
+    text-align: center;
 }
 
 .image-article2{
@@ -328,8 +332,9 @@
 
 
 .article3{
+    font-family: "Rubik", sans-serif;
     align-items: center;
-    height: 650px;
+    height: 740px;
     max-width: 260px;
     border-bottom: solid 1px rgb(130, 130, 130);
     padding-top: 10px;
@@ -346,6 +351,7 @@
     padding-top: 10px;
     font-size: 20px;
     color: rgb(40, 40, 40);
+    text-align: center;
 }
 
 .cheese{
@@ -374,8 +380,9 @@
 
 
 .article4{
+    font-family: "Rubik", sans-serif;
     align-items: center;
-    height: 480px;
+    height: 570px;
     max-width: 230px;
     border-bottom: solid 1px rgb(130, 130, 130);
     padding-top: 10px;
@@ -392,6 +399,7 @@
     padding-top: 10px;
     font-size: 20px;
     color: rgb(40, 40, 40);
+    text-align: center;
 }
 
 .image-article4{
@@ -401,6 +409,7 @@
 }
 
 .article5{
+    font-family: "Rubik", sans-serif;
     align-items: center;
     height: 350px;
     max-width: 260px;
@@ -419,11 +428,12 @@
     padding-top: 10px;
     font-size: 20px;
     color: rgb(40, 40, 40);
+    text-align: center;
 }
 
 .image-article5{
     padding-top: 10px;
-    max-width: 140px;
+    max-width: 130px;
     height: auto;
     border-radius: 50px;
 }
