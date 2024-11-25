@@ -257,18 +257,19 @@
 
 .journal{
     background-color: rgb(240, 240, 240);
-    height: 2000px;
+    height: 2900px;
     padding-top: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .page{
     background-color: rgb(255, 255, 255);
-    margin-left: 200px;
-    margin-right: 200px;
-    height: 1800px;
+    width: 1000px;
+    height: 2700px;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-left: 20px;
     padding-right: 20px;
     justify-content: space-between;
@@ -277,8 +278,9 @@
 
 .article1{
     align-items: center;
-    height: 550px;
+    height: 1000px;
     max-width: 450px;
+    border-bottom: solid 1px rgb(130, 130, 130);
 }
 
 .titre-article1{
@@ -300,8 +302,10 @@
 
 .article2{
     align-items: center;
-    height: 550px;
-    max-width: 200px;
+    height: 500px;
+    max-width: 230px;
+    border-bottom: solid 1px rgb(130, 130, 130);
+    background-color: aqua;
 }
 
 .titre-article2{
@@ -316,15 +320,17 @@
 }
 
 .image-article2{
-    max-width: 200px;
+    max-width: 230px;
     height: auto;
 }
 
 
 .article3{
     align-items: center;
-    height: 550px;
-    max-width: 200px;
+    height: 650px;
+    max-width: 350px;
+    background-color: aqua;
+    
 }
 
 .titre-article3{
@@ -339,6 +345,57 @@
 }
 
 .image-article3{
-    max-width: 200px;
+    max-width: 260px;
+    height: auto;
+}
+
+
+.article4{
+    align-items: center;
+    height: 500px;
+    max-width: 230px;
+    background-color: aqua;
+    border-bottom: solid 1px rgb(130, 130, 130);
+    padding-top: 10px;
+}
+
+.titre-article4{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(40, 40, 40);
+}
+
+.texte-article4{
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+}
+
+.image-article4{
+    padding-top: 10px;
+    max-width: 230px;
+    height: auto;
+}
+
+.article5{
+    align-items: center;
+    height: 350px;
+    max-width: 260px;
+    background-color: aqua;
+}
+
+.titre-article5{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(40, 40, 40);
+}
+
+.texte-article5{
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+}
+
+.image-article5{
+    max-width: 230px;
     height: auto;
 }
