@@ -338,12 +338,30 @@
     font-size: 30px;
     font-weight: bold;
     color: rgb(40, 40, 40);
+    text-align: center;
 }
 
 .texte-article3{
     padding-top: 10px;
     font-size: 20px;
     color: rgb(40, 40, 40);
+}
+
+.cheese{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.cheese:hover{
+    text-decoration: underline;
+}
+
+.texte-artiecle3-citation{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .image-article3{
@@ -367,6 +385,7 @@
     font-size: 20px;
     font-weight: bold;
     color: rgb(40, 40, 40);
+    text-align: center;
 }
 
 .texte-article4{
@@ -394,6 +413,7 @@
     font-weight: bold;
     color: rgb(40, 40, 40);
     padding-top: 10px;
+    text-align: center;
 }
 
 .texte-article5{
