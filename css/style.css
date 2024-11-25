@@ -423,6 +423,11 @@
 
 .image-article5{
     padding-top: 10px;
-    max-width: 260px;
+    max-width: 140px;
     height: auto;
+    border-radius: 50px;
+}
+
+.flech{
+    text-align: center;
 }
