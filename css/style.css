@@ -280,23 +280,34 @@
     font-family: "Rubik", sans-serif;
     align-items: center;
     height: 1090px;
-    max-width: 450px;
+    max-width: 400px;
     border-bottom: solid 1px rgb(130, 130, 130);
+    text-align: center;
 }
 
 .titre-article1{
     font-size: 30px;
     font-weight: bold;
     color: rgb(40, 40, 40);
+    padding-top: 10px;
 }
 
 .texte-article1{
     font-size: 20px;
     color: rgb(40, 40, 40);
+    padding-top: 20px;
+}
+
+.texte-artiecle1-citation{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+
 }
 
 .image-article1{
-    max-width: 450px;
+    padding-top: 20px;
+    max-width: 400px;
     height: auto;
 }
 
@@ -438,6 +449,6 @@
     border-radius: 50px;
 }
 
-.flech{
+.doigt{
     text-align: center;
 }
