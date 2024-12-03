@@ -248,6 +248,12 @@
 
 .h4_voirplus{
     color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.h4_voirplus_2{
+    text-decoration: none;
+    color: white;
 }
 
 .h4_heure{
