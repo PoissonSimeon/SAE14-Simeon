@@ -130,6 +130,16 @@
     color: black;
 }
 
+.julien-github{
+    text-decoration: none;
+    color: black;
+}
+
+.sacha-github{
+    text-decoration: none;
+    color: black;
+}
+
 .header4{
 
     height: 125px;
@@ -263,7 +273,7 @@
 
 .journal{
     background-color: rgb(240, 240, 240);
-    height: 2900px;
+    height: 1700px;
     padding-top: 200px;
     display: flex;
     justify-content: center;
@@ -272,7 +282,7 @@
 .page{
     background-color: rgb(255, 255, 255);
     width: 1000px;
-    height: 2700px;
+    height: 1150px;
     display: flex;
     flex-wrap: wrap;
     padding-top: 25px;
@@ -287,7 +297,7 @@
     align-items: center;
     height: 1090px;
     max-width: 400px;
-    border-bottom: solid 1px rgb(130, 130, 130);
+    border-bottom: solid 3px rgb(180, 0, 180);
     text-align: center;
 }
 
@@ -326,10 +336,10 @@
 
 .text-article1-clique:hover{
     padding: 10px;
-    background-color: black;
+    background-color: rgb(180, 0, 180);
     border-radius: 10px;
     text-decoration: none;
-    color: rgb(255, 169, 0);
+    color: white;
 }
 
 .image-article1{
@@ -344,7 +354,7 @@
     align-items: center;
     height: 520px;
     max-width: 230px;
-    border-bottom: solid 1px rgb(130, 130, 130);
+    border-bottom: solid 3px rgb(180, 0, 180);
     padding-top: 10px;
 }
 
@@ -374,7 +384,7 @@
     align-items: center;
     height: 740px;
     max-width: 260px;
-    border-bottom: solid 1px rgb(130, 130, 130);
+    border-bottom: solid 3px rgb(180, 0, 180);
     padding-top: 10px;
 }
 
@@ -399,7 +409,7 @@
 }
 
 .cheese:hover{
-    text-decoration: underline;
+    color: rgb(255, 169, 0);
 }
 
 .texte-artiecle3-citation{
@@ -422,7 +432,7 @@
     align-items: center;
     height: 570px;
     max-width: 230px;
-    border-bottom: solid 1px rgb(130, 130, 130);
+    border-bottom: solid 3px rgb(180, 0, 180);
     padding-top: 10px;
 }
 
@@ -451,7 +461,7 @@
     align-items: center;
     height: 350px;
     max-width: 260px;
-    border-bottom: solid 1px rgb(130, 130, 130);
+    border-bottom: solid 3px rgb(180, 0, 180);
 }
 
 .titre-article5{
