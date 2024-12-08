@@ -132,7 +132,7 @@
 
 .journal{
     background-color: rgb(240, 240, 240);
-    height: 3500px;
+    height: 1600px;
     padding-top: 200px;
     display: flex;
     justify-content: center;
@@ -141,7 +141,7 @@
 .page{
     background-color: rgb(255, 255, 255);
     width: 1000px;
-    height: 3270px;
+    height: 1150px;
     display: flex;
     padding-top: 25px;
     padding-left: 20px;
@@ -324,4 +324,13 @@
     border-radius: 10px;
     text-align: center;
     border: solid 5px rgb(255, 169, 0);
+}
+
+.lemonde{
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+
+.lemonde:hover{
+    color: rgb(255, 169, 0);
 }
