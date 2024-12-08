@@ -130,6 +130,21 @@
     color: black;
 }
 
+.julien-github{
+    text-decoration: none;
+    color: black;
+}
+
+.sacha-github{
+    text-decoration: none;
+    color: black;
+}
+
+.come-github{
+    text-decoration: none;
+    color: black;
+}
+
 .journal{
     background-color: rgb(240, 240, 240);
     height: 1600px;
@@ -181,149 +196,6 @@
 
 .part1{
     margin-bottom: 20px;
-}
-
-.part2{
-    margin-bottom: 20px;
-}
-
-.part3{
-    margin-bottom: 20px;
-}
-
-.part4{
-    margin-bottom: 20px;
-}
-
-.part5{
-    margin-bottom: 20px;
-}
-
-.part6{
-    margin-bottom: 20px;
-}
-
-.citation1{
-    text-align: center;
-    margin-bottom: 20px;
-    font-weight: bold;
-    padding: 20px;
-    border: solid 5px rgb(180, 0, 180);
-    border-radius: 10px;
-}
-
-.citation2{
-    text-align: center;
-    margin-bottom: 20px;
-    font-weight: bold;
-    padding: 20px;
-    border: solid 5px rgb(180, 0, 180);
-    border-radius: 10px;
-}
-
-.citation3{
-    text-align: center;
-    margin-bottom: 20px;
-    font-weight: bold;
-    padding: 20px;
-    border: solid 5px rgb(180, 0, 180);
-    border-radius: 10px;
-}
-
-.citation4{
-    text-align: center;
-    margin-bottom: 20px;
-    font-weight: bold;
-    padding: 20px;
-    border: solid 5px rgb(180, 0, 180);
-    border-radius: 10px;
-}
-
-.citation5{
-    text-align: center;
-
-    font-weight: bold;
-    padding: 20px;
-    border: solid 5px rgb(180, 0, 180);
-    border-radius: 10px;
-}
-
-.citation5-2{
-    margin-bottom: 20px;
-    font-size: 15px;
-    text-align: center;
-}
-
-.dallyday{
-    text-align: center;
-    margin-bottom: 20px;
-    font-weight: bold;
-    padding: 20px;
-    border: solid 5px rgb(180, 0, 180);
-    border-radius: 10px;
-}
-
-.dallyday2{
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.point1-titre{
-    background-color: rgb(255, 169, 0);
-    margin-left: 350px;
-    margin-right: 350px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
-    color: white;  
-}
-
-.point1{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    border: solid 5px rgb(255, 169, 0);
-}
-
-.point2-titre{
-    background-color: rgb(255, 169, 0);
-    margin-left: 350px;
-    margin-right: 350px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
-    color: white;  
-}
-
-.point2{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    border: solid 5px rgb(255, 169, 0);
-}
-
-.point3-titre{
-    background-color: rgb(255, 169, 0);
-    margin-left: 350px;
-    margin-right: 350px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
-    margin-bottom: 20px;  
-    color: white;  
-}
-
-.point3{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    border: solid 5px rgb(255, 169, 0);
 }
 
 .lemonde{
