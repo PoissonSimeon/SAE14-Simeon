@@ -89,9 +89,14 @@
     padding: 10px;
 }
 
-.icone1{
+.icone-github{
     display: flex;
     padding: 10px;
+}
+
+.icone-github-lien{
+    text-decoration: none;
+    color: black;
 }
 
 .propos{
@@ -127,6 +132,11 @@
     height: 55px;
     width: 1100px;
     margin: 0 auto;
+    color: black;
+}
+
+.le-monde{
+    text-decoration: none;
     color: black;
 }
 
@@ -296,6 +306,9 @@
     justify-content: space-between;
 }
 
+.ulogo{
+    width: 20px;
+}
 
 .article1{
     font-family: "Rubik", sans-serif;
@@ -394,7 +407,7 @@
 }
 
 .titre-article3{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: rgb(40, 40, 40);
     text-align: center;
