@@ -187,14 +187,29 @@
     .header4 {
       display: none;
     }
-    .header1 {
-        display: none;
+
+    .h3-nav {
+      display: none;
     }
+
+    .logo img{
+        width: 400px;
+        height: auto;
+        display: flex;
+        
+   }
+   
+
     .header3{
-        display: none;
-    }
-    .propos {
-        display: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 55px;
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0 auto;
+        color: black;
     }
 
   }
