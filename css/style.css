@@ -76,6 +76,14 @@
     display: flex;
     padding: 10px;
     border-radius: 5px;
+    border: solid 2px rgb(255, 255, 255);
+    color: rgb(40, 40, 40);
+}
+
+.abonner:hover{
+    border: solid 2px rgb(255, 169, 0);
+    background-color: white;
+    color: rgb(40, 40, 40);
 }
 
 .barre{
@@ -87,6 +95,15 @@
 .connexion{
     display: flex;
     padding: 10px;
+    border: solid 2px rgb(180, 0, 180);
+    border-radius: 5px;
+    color: rgb(40, 40, 40);
+}
+
+.connexion:hover{
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    color: rgb(40, 40, 40);
 }
 
 .icone-github{
@@ -96,12 +113,16 @@
 
 .icone-github-lien{
     text-decoration: none;
-    color: black;
+    color: rgb(40, 40, 40);
+}
+
+.icone-github-lien:hover{
+    color: rgb(255, 169, 0);
 }
 
 .propos{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(40, 40, 40);
     background-color: rgb(255, 255, 255);
     display: flex;
     padding: 10px;
