@@ -76,6 +76,14 @@
     display: flex;
     padding: 10px;
     border-radius: 5px;
+    border: solid 2px rgb(255, 255, 255);
+    color: rgb(40, 40, 40);
+}
+
+.abonner:hover{
+    border: solid 2px rgb(255, 169, 0);
+    background-color: white;
+    color: rgb(40, 40, 40);
 }
 
 .barre{
@@ -87,20 +95,42 @@
 .connexion{
     display: flex;
     padding: 10px;
+    border: solid 2px rgb(180, 0, 180);
+    border-radius: 5px;
+    color: rgb(40, 40, 40);
 }
 
-.icone1{
+.connexion:hover{
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    color: rgb(40, 40, 40);
+}
+
+.icone-github{
     display: flex;
     padding: 10px;
+}
+
+.icone-github-lien{
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+
+.icone-github-lien:hover{
+    color: rgb(255, 169, 0);
 }
 
 .propos{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(40, 40, 40);
     background-color: rgb(255, 255, 255);
     display: flex;
     padding: 10px;
     border-radius: 5px;
+}
+
+.propos-2{
+    display: none;
 }
 
 .propos:hover{
@@ -130,6 +160,11 @@
     color: black;
 }
 
+.le-monde{
+    text-decoration: none;
+    color: black;
+}
+
 .julien-github{
     text-decoration: none;
     color: black;
@@ -145,6 +180,79 @@
     color: black;
 }
 
+.header4{
+
+    height: 125px;
+    background-color: rgb(180, 0, 180);
+    display: block;
+}
+
+@media (max-width: 1150px) {
+
+    .header1{
+        display: none;
+    }
+
+    .header4 {
+      display: none;
+    }
+
+    .h3-nav {
+      display: none;
+    }
+
+    .header2{
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        justify-content: center;
+   }
+
+    .logo img{
+        width: 300px;
+        height: auto;
+        margin-left: 0px;
+        margin-right: 290px;
+        padding: 0px;
+   }
+
+    .header3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 55px;
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0 auto;
+        color: black;
+    }
+
+    .propos{
+        display: none;
+   }
+
+   .propos-2{
+        display: initial;
+        text-decoration: none;
+        color: black;
+        border-radius: 5px;
+        padding: 10px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+   } 
+
+   .propos-2:hover{
+        background-color: rgb(255, 169, 0);
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+   }
+
+  }
+
 .journal{
     background-color: rgb(240, 240, 240);
     height: 3500px;
@@ -156,7 +264,7 @@
 .page{
     background-color: rgb(255, 255, 255);
     width: 1000px;
-    height: 3270px;
+    height: 3290px;
     display: flex;
     padding-top: 25px;
     padding-left: 20px;
