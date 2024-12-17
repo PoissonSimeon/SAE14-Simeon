@@ -86,6 +86,10 @@
     color: rgb(40, 40, 40);
 }
 
+.abonner-2{
+    display: none;
+}
+
 .barre{
     display: flex;
     padding: 10px;
@@ -104,6 +108,10 @@
     background-color: rgb(240, 240, 240);
     border-radius: 5px;
     color: rgb(40, 40, 40);
+}
+
+.connexion-2{
+    display: none;
 }
 
 .icone-github{
@@ -187,71 +195,7 @@
     display: block;
 }
 
-@media (max-width: 1150px) {
 
-    .header1{
-        display: none;
-    }
-
-    .header4 {
-      display: none;
-    }
-
-    .h3-nav {
-      display: none;
-    }
-
-    .header2{
-        width: auto;
-        padding-left: 30px;
-        padding-right: 30px;
-        display: flex;
-        justify-content: center;
-   }
-
-    .logo img{
-        width: 300px;
-        height: auto;
-        margin-left: 0px;
-        margin-right: 290px;
-        padding: 0px;
-   }
-
-    .header3{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 55px;
-        width: auto;
-        padding-left: 30px;
-        padding-right: 30px;
-        margin: 0 auto;
-        color: black;
-    }
-
-    .propos{
-        display: none;
-   }
-
-   .propos-2{
-        display: initial;
-        text-decoration: none;
-        color: black;
-        border-radius: 5px;
-        padding: 10px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-   } 
-
-   .propos-2:hover{
-        background-color: rgb(255, 169, 0);
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-   }
-
-  }
 
 .journal{
     background-color: rgb(240, 240, 240);
@@ -447,4 +391,240 @@
     border-radius: 10px;
     text-align: center;
     border: solid 5px rgb(255, 169, 0);
+}
+
+@media (max-width: 1150px) {
+
+    .header1{
+        display: none;
+    }
+
+    .header4 {
+      display: none;
+    }
+
+    .h3-nav {
+      display: none;
+    }
+
+    .header2{
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        justify-content: center;
+   }
+
+    .logo img{
+        width: 300px;
+        height: auto;
+        margin-left: 0px;
+        margin-right: 290px;
+        padding: 0px;
+   }
+
+    .header3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 55px;
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0 auto;
+        color: black;
+    }
+
+    .propos{
+        display: none;
+   }
+
+   .propos-2{
+        display: initial;
+        text-decoration: none;
+        color: black;
+        border-radius: 5px;
+        padding: 10px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+   } 
+
+   .propos-2:hover{
+        background-color: rgb(255, 169, 0);
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+   }
+
+  }
+
+@media (max-width: 955px) {
+
+    .header2{
+        justify-content: center;
+    }
+
+    .inscription{
+        display: none;
+    }
+
+    .logo img{
+        margin-right: 0px;
+    }
+
+    .le-monde{
+        display: none;
+    }
+
+    .julien-github{
+        display: none;
+    }
+
+    .come-github{
+        display: none;
+    }
+
+    .sacha-github{
+        display: none;
+    }
+
+    .abonner-2{
+        display: initial;
+        text-decoration: none;
+        color: black;
+        border-radius: 5px;
+        padding: 10px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        border: solid 2px rgb(255, 169, 0);
+    }
+
+    .abonner-2:hover{
+        background-color: rgb(240, 240, 240);
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .connexion-2{
+        display: initial;
+        text-decoration: none;
+        color: black;
+        border-radius: 5px;
+        padding: 10px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        border: solid 2px rgb(180, 0, 180);
+    }
+
+    .connexion-2:hover{
+        background-color: rgb(240, 240, 240);
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .journal{
+
+        height: auto;
+
+    }
+    
+    .page{
+
+        height: auto;
+        padding-bottom: 20px;
+
+    }
+    
+    .titre-article1{
+        font-size: 30px;
+    }
+    
+    .image-article1{
+        max-width: 50%;
+    }
+
+    .point1-titre{
+
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 10px;
+        text-align: center;
+
+    }
+    
+    .point2-titre{
+
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 10px;
+        text-align: center;
+ 
+    }
+    
+    .point3-titre{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 10px;
+        text-align: center;
+    }
+
+  }
+
+@media (max-width: 600px) {
+
+    .fa-house{
+        display: none;
+    }
+
+    .fa-magnifying-glass{
+        display: none;
+    }
+
+    .acronyme{
+        display: none;
+    }
+
+    .acronyme-réduit{
+        display: initial;
+    }
+
+    .page{
+        width: 600px;
+        height: 2500px;
+        justify-content: center;
+    }
+
+    .journal{
+
+        border-top: solid 4px rgb(180, 0, 180);
+        padding-top: 0px;
+
+    }
+
+
+}
+
+@media (max-width: 390px) {
+
+    .connexion-2{
+        border-radius: 0;
+        border: solid 2px rgb(255, 255, 255);
+        border-bottom: solid 2px rgb(180, 0, 180);
+        padding: 0;
+    }
+
+    .abonner-2{
+        border-radius: 0;
+        border: solid 2px rgb(255, 255, 255);
+        border-bottom: solid 2px rgb(255, 169, 0);
+        padding: 0;
+    }
+
+
+
 }
