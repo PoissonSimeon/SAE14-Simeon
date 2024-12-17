@@ -335,6 +335,10 @@
     text-align: center;
 }
 
+.acronyme-réduit{
+    display: none;
+}
+
 .titre-article1{
     font-size: 30px;
     font-weight: bold;
@@ -664,35 +668,115 @@
 
 @media (max-width: 600px) {
 
+    .fa-house{
+        display: none;
+    }
+
+    .fa-magnifying-glass{
+        display: none;
+    }
+
+    .acronyme{
+        display: none;
+    }
+
+    .acronyme-réduit{
+        display: initial;
+    }
+
     .page{
         width: 600px;
-        height: 2250px;
+        height: 2500px;
         justify-content: center;
+        display: grid;
+        flex-wrap: nowrap;
+    }
+
+    .journal{
+
+        border-top: solid 4px rgb(180, 0, 180);
+        padding-top: 0px;
+
     }
 
     .article1{
-        margin-left: 50px;
-        margin-right: 50px;
+
+        text-align: center;
+        margin: auto;
+        max-width: 80%;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 50px;
+
+    }
+
+    .image-article1{
+        max-width: 100%;
     }
 
     .article2{
-        margin-left: 50px;
-        margin-right: 50px;
-    }
 
-    .article3{
-        margin-left: 50px;
-        margin-right: 50px;
+        text-align: center;
+        margin: auto;
+        max-width: 80%;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .article4{
-        margin-left: 50px;
-        margin-right: 50px;
+
+        text-align: center;
+        margin: auto;
+        max-width: 80%;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+
+    }
+
+    .article3{
+
+        text-align: center;
+        margin: auto;
+        max-width: 80%;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+
     }
 
     .article5{
-        margin-left: 50px;
-        margin-right: 50px;
+
+        text-align: center;
+        margin: auto;
+        max-width: 80%;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
     }
+
+}
+
+@media (max-width: 390px) {
+
+    .connexion-2{
+        border-radius: 0;
+        border: solid 2px rgb(255, 255, 255);
+        border-bottom: solid 2px rgb(180, 0, 180);
+        padding: 0;
+    }
+
+    .abonner-2{
+        border-radius: 0;
+        border: solid 2px rgb(255, 255, 255);
+        border-bottom: solid 2px rgb(255, 169, 0);
+        padding: 0;
+    }
+
+
 
 }
