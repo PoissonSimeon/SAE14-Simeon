@@ -3,10 +3,10 @@
 # L'Univers
 
 
-## Page web de réalisée dans le cadre de la SAE14
+## Page web réalisée dans le cadre de la SAE14
 
 
-### Lien vers GitHub Pages: 
+### Lien vers GitHub Pages: * 
 
 ````
 https://poissonsimeon.github.io/SAE14-Simeon/
@@ -14,13 +14,14 @@ https://poissonsimeon.github.io/SAE14-Simeon/
 
 ## Description du projet:
 
-### Il s'âgit d'une **parodie** du journal en ligne ["Le Monde"](https://www.lemonde.fr/).
-### Toute réaction migraineuse à la lecture de cette page pourrait ne pas être fortuite, restez vigilant
+### Il s'âgit d'une version parodique du journal en ligne ["Le Monde"](https://www.lemonde.fr/).
+
 
 ## Technologies utilisés:
 
-````HTML```` / ````CSS```` / ````Font Awesome```` / ````Google Font```` / ````Gimp```` / ````CapCut````
+````HTML```` ````(Structure des pages)```` / ````CSS```` ````(Mise en page et animations)```` / ````Font Awesome```` ````(Icônes)```` / ````Google Font```` ````(Polices d'Ecriture)```` / ````Gimp```` ````(Edition des logos parodiques L'Univers)```` / ````CapCut```` ````(Edition de l'Easter-egg vidéo)````
 
+###### *Toute réaction migraineuse à la lecture de cette page pourrait ne pas être fortuite, restez vigilant
 
 </center>
 
