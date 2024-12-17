@@ -21,8 +21,16 @@
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-    text-decoration: none;    
-    color: black;
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+}
+
+.francais:hover{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(180, 0, 180);
+    text-decoration: none;  
 }
 
 .fjbarre{
